@@ -1,0 +1,13 @@
+.info {
+  &_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+    width: fit-content;
+  }
+
+  &_info {
+    text-align: center;
+    font-size: 1.5em;
+  }
+}

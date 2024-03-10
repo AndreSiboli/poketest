@@ -1,0 +1,23 @@
+@use "@/styles/_dirs/variables" as var;
+@use "@/styles/_dirs/mixins" as mix;
+
+.button {
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 1em;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+  margin: 2.5px 2.5px 2.5px 0;
+
+  svg {
+    display: block;
+    color: #000;
+  }
+
+  @include mix.OnlyPc {
+    &:hover {
+      background-color: var.$accent-color;
+    }
+  }
+}

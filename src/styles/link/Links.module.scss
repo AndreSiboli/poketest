@@ -1,0 +1,26 @@
+@use "@/styles/_dirs/mixins" as mix;
+
+.link {
+  position: relative;
+  padding: 0.1em;
+  font-size: 0.95em;
+
+  @include mix.OnlyPc {
+    &::after {
+      content: "";
+      position: absolute;
+      background: #fff;
+      width: 0;
+      height: 1px;
+      left: 0;
+      bottom: 0;
+      transition: 0.25s ease-in-out;
+    }
+
+    &:hover {
+      &:after {
+        width: 100%;
+      }
+    }
+  }
+}

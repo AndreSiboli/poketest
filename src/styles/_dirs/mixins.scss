@@ -1,0 +1,151 @@
+@mixin OnlyPc {
+  @media (hover: hover) and (pointer: fine) {
+    @content;
+  }
+}
+
+@mixin PokemonTypes {
+  &.grass {
+    color: #147a3d;
+  }
+
+  &.fire {
+    color: #ab1f23;
+  }
+  &.water {
+    color: #1e52e2;
+  }
+
+  &.poison {
+    color: #5e2d88;
+  }
+
+  &.bug {
+    color: #1c4b27;
+  }
+
+  &.electric {
+    color: #e3e32b;
+  }
+  &.ground {
+    color: #a9702a;
+  }
+  &.fairy {
+    color: #981844;
+  }
+
+  &.rock {
+    color: #48180b;
+  }
+
+  &.ghost {
+    opacity: 0.3;
+    color: #33336b;
+  }
+
+  &.ice {
+    color: #86d2f5;
+  }
+
+  &.dark {
+    color: #040706;
+  }
+
+  &.dragon {
+    color: #428c95;
+  }
+
+  &.fighting {
+    color: #994026;
+  }
+
+  &.flying {
+    color: #4b677d;
+  }
+
+  &.normal {
+    color: #755259;
+  }
+
+  &.psychic {
+    color: #a42a6c;
+  }
+
+  &.steel {
+    color: #5f756d;
+  }
+}
+
+
+@mixin PokemonTypesBg {
+  &.grass {
+    background: #147a3d;
+  }
+
+  &.fire {
+    background: #ab1f23;
+  }
+  &.water {
+    background: #1e52e2;
+  }
+
+  &.poison {
+    background: #5e2d88;
+  }
+
+  &.bug {
+    background: #1c4b27;
+  }
+
+  &.electric {
+    background: #e3e32b;
+  }
+  &.ground {
+    background: #a9702a;
+  }
+  &.fairy {
+    background: #981844;
+  }
+
+  &.rock {
+    background: #48180b;
+  }
+
+  &.ghost {
+    opacity: 0.3;
+    background: #33336b;
+  }
+
+  &.ice {
+    background: #86d2f5;
+  }
+
+  &.dark {
+    background: #040706;
+  }
+
+  &.dragon {
+    background: #428c95;
+  }
+
+  &.fighting {
+    background: #994026;
+  }
+
+  &.flying {
+    background: #4b677d;
+  }
+
+  &.normal {
+    background: #755259;
+  }
+
+  &.psychic {
+    background: #a42a6c;
+  }
+
+  &.steel {
+    background: #5f756d;
+  }
+}
+

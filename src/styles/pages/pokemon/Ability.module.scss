@@ -1,0 +1,16 @@
+@use "@/styles/_dirs/variables" as var;
+
+.ability {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
+  
+  &_info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    background: lighten($color: var.$secondary-color, $amount: 0);
+    border-radius: 0.5em;
+    padding: 1em;
+  }
+}

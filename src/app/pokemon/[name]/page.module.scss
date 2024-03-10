@@ -1,0 +1,50 @@
+@use "@/styles/_dirs/variables" as var;
+
+.pokemon {
+  &_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+  }
+
+  &_wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  &_image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1em;
+
+    img {
+      border-radius: 0.5em;
+      background: #ddd;
+      object-fit: cover;
+    }
+  }
+
+ 
+
+  &_informations {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: var.$secondary-color;
+    max-width: 716px;
+    width: 100%;
+    border-radius: 0.5em 0 0.5em 0.5em;
+    padding: 1em;
+    color: #fff;
+
+    .pokemon_characteristic,
+    .pokemon_ability {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+  }
+}

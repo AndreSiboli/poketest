@@ -1,0 +1,10 @@
+@use "@/styles/_dirs/variables" as var;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: .75em;
+  background: lighten($color: var.$secondary-color, $amount: 10);
+  border-radius: 0.5em;
+  padding: 1em;
+}

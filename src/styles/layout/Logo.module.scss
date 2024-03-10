@@ -1,0 +1,9 @@
+@use "@/styles/_dirs/variables";
+
+.logo {
+  h1 {
+    color: variables.$accent-color;
+    text-shadow: -2px 2px 2px
+      darken($color: variables.$accent-color, $amount: 40%);
+  }
+}

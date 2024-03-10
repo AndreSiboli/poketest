@@ -1,0 +1,15 @@
+.button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  &.styled {
+    font-size: 1em;
+    font-weight: 600;
+    background: #000;
+    padding: 1em;
+    color: #fff;
+    width: 100%;
+    border-radius: 0.5em;
+  }
+}

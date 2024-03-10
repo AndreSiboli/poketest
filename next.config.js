@@ -3,6 +3,11 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
 
-module.exports = nextConfig
+  images: {
+    remotePatterns: [{ hostname: "raw.githubusercontent.com" }],
+    formats: ["image/avif", "image/webp"],
+  },
+};
+
+module.exports = nextConfig;
